@@ -2,8 +2,8 @@
 # accepting connections on a target system.
 
 # A simple port scanner utlizes a brute force method. The
-# scanner tries to open connections to every possible
-# port on the target system.
+# scanner tries to connect to every possible port
+# on the target system.
 
 # It's important to note this technique will be detected 
 # by the target system. Each connection attempt will be
@@ -16,8 +16,8 @@
 
 # Input Class (Accepts input from user)
 
-# Socket Loop Class (Attempts to open TCP sockets on target
-# system)
+# Socket Handling Class (Attempts to open TCP sockets on target
+# system and handles socket related needs)
 	# Default Range: 1 - 1023
 
 # Output Class (Generates report)
