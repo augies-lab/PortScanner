@@ -1,6 +1,6 @@
 # 09/17: Began pseudocode for user input class.
 
-# class UserInput
+# class UserInput:
 	# string target
 	# string (?) targetHostname
 	# int minPort
@@ -8,7 +8,7 @@
 
 	# # UserInput object will retain the state of
 	# # the user's input.
-	# class instance UserInput(
+	# def  __init__ (
 		# string target, 
 		# int minPort,
 		# int maxPort)
