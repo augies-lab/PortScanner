@@ -9,11 +9,10 @@
 	# # UserInput object will retain the state of
 	# # the user's input.
 	# def  __init__ (
-		# string target, 
 		# int minPort,
 		# int maxPort)
 
-		# self.target = target
+		# self.target = getTargetName()
 
 		# # Note: Set defaults for minPort and
 		# # maxPort if none entered.
@@ -22,9 +21,9 @@
 
 		# (?) self.targetHostname = self.gethostname()
 
-	# method IP (?) getHostName()
-		# # Method will call Socket Handling
-		# # class 
+	# # Kick off:
+	# method string getTargetName()
+		# target = raw_input("Enter scan target: ")
 
 	# method bool minPortIsNotEqualToMaxPort
 
