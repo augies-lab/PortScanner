@@ -7,7 +7,7 @@
 	# socket openSocket
 
 	# # SocketHandling object will retain the state of
-	# # the current po
+	# # the current port, etc. [ADD]
 	# def __init__ ()
 		# self.currentPort = portIndex()
 		# openSocket = socket.socket(socket.AF_INET, 
@@ -15,4 +15,19 @@
 
 	# static method int portIndex()
 		# try:
-			# 
+			# # Update currentPort?
+			# for (?) port in range(UserInput.minPort,
+				# UserInput.maxPort)
+
+				# sock = socket.socket(socket.AF_INET,
+					# socket.SOCK_STREAM)
+
+				# targetIP = socket.gethostbyname(UserInput.target)
+
+				# result = sock.connect_ex(UserInput.target,
+					# port)
+
+				# if result == 0:
+					# print "Port {}: Open".format(port)
+
+				# sock.close()
