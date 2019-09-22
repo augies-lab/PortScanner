@@ -1,6 +1,26 @@
-# 09/17: Began pseudocode for user input class.
+# 09/22: Created constructor method.
 
-# class UserInput:
+class UserInput:
+
+	def __init__(self, targetStrName):
+		self.targetStrName = targetStrName
+
+	def printTargetStrName(self):
+		print(self.targetStrName)
+
+	# #Overload constructor
+	# def __init__(self, targetStrName, minPort, maxPort):
+	# 	self.targetStrName = targetStrName
+	# 	self.minPort = minPort
+	# 	self.maxPort = maxPort
+
+u = UserInput('str')
+print(u)
+u.printTargetStrName()
+
+# i = UserInput('str', 'max', 'min')
+# print(i)
+
 	# string target
 	# string (?) targetHostname
 	# int minPort
@@ -10,7 +30,7 @@
 	# # the user's input.
 	# def  __init__ (
 		# int minPort,
-		# int maxPort)
+		# int maxPort):
 
 		# self.target = getTargetName()
 
