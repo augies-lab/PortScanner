@@ -1,4 +1,5 @@
-# 09/22: Created constructor method.
+# 09/25: Port concerns (ranges) should to be handled
+# by specialized class.
 
 class UserInput:
 
@@ -42,8 +43,9 @@ u.printTargetStrName()
 		# (?) self.targetHostname = self.gethostname()
 
 	# # Kick off:
+	# # targetStrName will be converted to address
+	# # in SocketHandling
 	# method string getTargetName()
-		# target = raw_input("Enter scan target: ")
 
 	# method bool minPortIsNotEqualToMaxPort
 

@@ -22,9 +22,10 @@
 				# sock = socket.socket(socket.AF_INET,
 					# socket.SOCK_STREAM)
 
-				# targetIP = socket.gethostbyname(UserInput.target)
+				# targetIP = socket.gethostbyname(
+					# UserInput.targetStrName)
 
-				# result = sock.connect_ex(UserInput.target,
+				# result = sock.connect_ex(UserInput.targetStrName,
 					# port)
 
 				# if result == 0:
